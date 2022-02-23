@@ -1,0 +1,107 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.customNav {
+    position: fixed;
+    width: 100%;
+    background-color: lightgrey;
+    background-size: cover;
+    z-index: 10;
+  }
+  .custom-navbar {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+  }
+  .nav-item {
+    margin: 0px 15px;
+  }
+
+  .nav-link.active {
+    color: black;
+    }
+
+  .nav-link.inactive {
+    color: black;
+    }
+
+  .jumbotron {
+    background-image: url(../Images/Frame\ 20.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h1 {
+      justify-content: center;
+      color: #623779;
+      font-size: 56px;
+      display: flex;
+  }
+
+.Overview {
+    width: 500px
+}
+
+.card-mb-3 {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+p {
+    align-items: center;
+    justify-content: center;
+    line-height: 175%;
+    font-size: 20px;
+}
+
+h2 {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    line-height: 150%;
+    margin-bottom: 100px;
+    font-size: 28px;
+    justify-content: center;
+}
+
+.Wireframe {
+    width: 500px;
+}
+
+.final-proto {
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.custom-footer {
+    margin-right: auto;
+    margin-left: 0 !important;
+    width: 100%;
+    background-color: #f8f9fa;
+    background-size: cover;
+    z-index: 10;
+    height: 76px;
+    display: flex;
+    align-items: center;
+}
+
+.finalProtoText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
